@@ -20,9 +20,4 @@ Ultimately, time management is a means, not an end; the end is productivity (get
 
 P.S I recently joined a new [team](https://phenixrts.com/en-us/); this is also an opportunity for me to learn their tech tools as I build this project using the same tools they use.
 
-## target users
-- if you have routine tasks, this is not for you.
-- if your environment is well-defined and hardly changing, no
-- if you have tasks that require creativity, making it impossible and less ideal to sandbox into a time slot on a calendar, this is for you.
-
 ## How it Works
