@@ -12,10 +12,13 @@ Try as i may, I always struggle to follow tasks that are bound to specific time 
 - In carrying out a task there are a number of factors outside your control. For instance, a task may need a response from a colleague (who is probably tied up in their own task). The fact that you have alloted 3PM to 3:30PM on your calendar for that task doesn't mean that colleague will be available to help you within that time period.
 
 ## Solution
-- "timeless" tasks
-- I recently worked on a concurrency limiter where requests to a backend API where rate-limited not based on some arbitrary number but based on the number of active requests. Once a request was done processing, another one from a queue could begin. Requests were also rate-limited based on "context." So, requests under one context could be more limited than requests under another context. This ToDo app takes a similar approach. You create to-do tasks under various contexts, and those tasks automatically get moved from the backlog to the forefront in such a way that isn't overwhelming.
-- i just joined a new [team](https://phenixrts.com/en-us/); this is also an opportunity for me to learn their tech tools
-- Ultimately, time management is a means; the end is productivity (getting stuff done). Tasq focuses of what you have to do, and not when you have to do it.
+I recently worked on a concurrency limiter that limited the number of concurrent requests that could be made to a backend API. Requests were grouped into contexts, and only a certain number of requests per context could hit the backend concurrently. The requests that couldn't get processed were placed in the respective queues of their contextx. Once a request was done processing, another one from a queue could begin. Each request had a wait period; if a request was not processed within its wait period it timed-out. Notice how requests don't get processed at some specified time like 2PM but, rather, get processed when there's capacity for that to happen.
+
+I decided to borrow many of these ideas and apply them to tasks in the Tasq app. You create to-do tasks under various contexts, and those tasks automatically get moved from the backlog to the forefront whenever you have the capacity to handle them (and not at some fixed time).
+
+Ultimately, time management is a means, not an end; the end is productivity (getting stuff done). Tasq focuses of what you have to do, and not when you have to do it.
+
+P.S I recently joined a new [team](https://phenixrts.com/en-us/); this is also an opportunity for me to learn their tech tools as I build this project using the same tools they use.
 
 ## target users
 - if you have routine tasks, this is not for you.
