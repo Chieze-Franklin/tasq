@@ -1,0 +1,26 @@
+{
+  "name": "tasq",
+  "version": "2020.5.20",
+  "description": "ToDo app for the lazy!",
+  "scripts": {
+    "build": "react-scripts build",
+    "preinstall": "npm prune",
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chieze-Franklin/tasq.git"
+  },
+  "author": "Franklin Chieze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chieze-Franklin/tasq/issues"
+  },
+  "homepage": "https://github.com/Chieze-Franklin/tasq#readme",
+  "devDependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-scripts": "3.4.1"
+  }
+}

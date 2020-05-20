@@ -21,3 +21,21 @@ Ultimately, time management is a means, not an end; the end is productivity (get
 P.S I recently joined a new [team](https://phenixrts.com/en-us/); this is also an opportunity for me to learn their tech tools as I build this project using the same tools they use.
 
 ## How it Works
+
+## Development
+
+#### Setup
+```
+nvm use
+npm i
+```
+
+#### Start up
+```
+npm run start
+```
+
+#### Build
+```
+npm run build
+```
