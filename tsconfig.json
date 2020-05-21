@@ -1,53 +1,53 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "esnext",
-      "moduleResolution": "node",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
-      "sourceMap": true,
-      "noEmit": true,
-      "noEmitHelpers": true,
-      "importHelpers": true,
-      "strictNullChecks": false,
-      "noUnusedParameters": true,
-      "noUnusedLocals": true,
-      "noImplicitAny": false,
-      "lib": [
-        "dom",
-        "es6"
-      ],
-      "baseUrl": "src",
-      "typeRoots": [
-        "node_modules/@types",
-        "types/@types"
-      ],
-      "types": [
-        "node",
-        "jest"
-      ],
-      "allowJs": true,
-      "skipLibCheck": true,
-      "esModuleInterop": true,
-      "strict": true,
-      "forceConsistentCasingInFileNames": true,
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "jsx": "react"
-    },
-    "exclude": [
-      "node_modules",
-      "public"
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "strictNullChecks": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "lib": [
+      "dom",
+      "es6"
     ],
-    "awesomeTypescriptLoaderOptions": {
-      "forkChecker": true,
-      "useWebpackText": true
-    },
-    "compileOnSave": true,
-    "buildOnSave": false,
-    "atom": {
-      "rewriteTsconfig": false
-    },
-    "include": ["src"]
-  }
+    "baseUrl": "src",
+    "typeRoots": [
+      "node_modules/@types",
+      "types/@types"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules",
+    "public"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  },
+  "compileOnSave": true,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "include": ["src"]
+}

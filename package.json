@@ -1,26 +1,42 @@
 {
   "name": "tasq",
-  "version": "2020.5.20",
+  "version": "2020.5.21",
   "description": "ToDo app for the lazy!",
-  "scripts": {
-    "build": "react-scripts build",
-    "preinstall": "npm prune",
-    "start": "react-scripts start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.42",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.7.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Chieze-Franklin/tasq.git"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "author": "Franklin Chieze",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Chieze-Franklin/tasq/issues"
-  },
-  "homepage": "https://github.com/Chieze-Franklin/tasq#readme",
-  "devDependencies": {
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "react-scripts": "3.4.1"
-  }
+  "license": "MIT"
 }
