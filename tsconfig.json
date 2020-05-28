@@ -19,14 +19,6 @@
       "es6"
     ],
     "baseUrl": "src",
-    "typeRoots": [
-      "node_modules/@types",
-      "types/@types"
-    ],
-    "types": [
-      "node",
-      "jest"
-    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
