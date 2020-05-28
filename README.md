@@ -39,3 +39,31 @@ npm run start
 ```
 npm run build
 ```
+
+#### Acceptance Tests
+
+Run acceptance tests using the CLI command below. This command will install all dependencies and run the tests against a running server with the `pageUri` argument provided.
+* For Continuous Integration
+```
+npm run ci-acceptance-test -- --username=<> --password=<> --pageUri=<> --browser=<>
+```
+* Run on localhost (This runs on port :3000 automatically)
+```
+npm run acceptance-test -- --username=<> --password=<> --browser=<>
+```
+* To overide the default backendUri, add it to the CLI arguments
+```
+--backendUri=<>
+```
+
+
+| Browser    | Headless Browser |
+| :--------- | :--------------- |
+| chrome     | chrome:headless  |
+| firefox    | firefox:headless |
+| safari     |                  |
+
+Generate acceptance test reports
+```
+npm run acceptance-test-report
+```
